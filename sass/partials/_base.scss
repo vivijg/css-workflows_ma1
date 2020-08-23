@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Archivo Narrow', sans-serif;
+    
+}
+
+body {
+    background: map-get($colours, grey);
+
+
+    .wrapper {
+        flex: 1 0 auto;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .container-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1 {
+        justify-content: center;
+        text-align: center;
+        font-family: 'Archivo Narrow', sans-serif;
+        
+
+    }
+}

@@ -1,0 +1,17 @@
+footer {
+    margin-bottom: 0px;
+    background: getColour(primary);
+    flex-shrink: 0;
+    color: black;
+    padding: 0.5rem;
+   
+
+
+
+
+    .container {
+        @extend .container-flex;
+
+    }
+}
+

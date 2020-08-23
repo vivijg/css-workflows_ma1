@@ -1,0 +1,17 @@
+nav {
+    background: map-get($colours, grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-brand {
+        font-size: 30px;
+        font-weight: 100;
+
+    }
+
+    a{
+        color:red;
+    }
+
+}

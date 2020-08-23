@@ -1,0 +1,8 @@
+$colours: (primary: #F4F3EE,
+    secondary: #fff,
+    danger: #C32C72,
+    grey: #E5E5E5);
+
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}
